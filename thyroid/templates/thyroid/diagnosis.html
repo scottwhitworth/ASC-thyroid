@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}{{ diagnosis }}{% endblock %}
+
+{% block content %}
+<section id="diagnosis">
+<header>
+<p><a href="{% url thy_diagnosis_list %}"><- return to diagnosis list</a></p>
+<hgroup>
+<h1>{{ diagnosis }}</h1>
+<h2>Category: {{ diagnosis.category }}</h2>
+</hgroup>
+</header>
+<div class="description">
+{{ diagnosis.description|safe }}
+</div>
+</section>
+<section id="image-link">
+<p><a href="http://www.papsociety.org/atlas/index.php" target="blank">View Images on the Thyroid Atlas (www.papsociety.org)</a></p>
+</section>
+{% if diagnosis.references.all %}
+<section id="references">
+<header>
+<h1>References</h1>
+</header>
+<ul>
+{% for reference in diagnosis.references.all %}
+<li><a href="{{ reference.link }}" target="blank">{{ reference }}</a></li>
+{% endfor %}
+</ul>
+</section>
+{% endif %}
+
+
+{% endblock %}

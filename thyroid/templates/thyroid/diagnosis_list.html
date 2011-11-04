@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Diagnosis List{% endblock %}
+
+{% block content %}
+<section id="diagnosis-list">
+<header>
+<h1>Diagnosis List:</h1>
+</header>
+
+{% for diagnosis in diagnoses %}
+{% if forloop.first %}<article>{% endif %}
+{% ifchanged diagnosis.category %}
+{% if forloop.counter != 1 %}</article><article>{% endif %}
+<header>
+<h1>{{ diagnosis.category }}</h1>
+</header>
+{% endifchanged %}
+<p><a href="{% url thy_diagnosis diagnosis.id %}">{{ diagnosis }}</a></p>
+{% if forloop.last %}</article>{% endif %}
+{% endfor %}
+</section>
+{% endblock %}

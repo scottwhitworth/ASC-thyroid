@@ -1,0 +1,16 @@
+@import "compass/reset";
+@import "blueprint";
+@include reset-html5;
+
+$green: #4B490B;
+$serif: "Times New Roman", serif;
+$sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$regular-link-color: blue;
+$regular-link-visited-color: blue;
+$regular-link-hover-color: green;
+$header-color: red;
+$header-link-color: black;
+$header-link-hover-color: blue;
+$reference-link: gray;
+$reference-link-hover: black;
+$image-link: black;

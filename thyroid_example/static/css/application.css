@@ -1,0 +1,336 @@
+/* line 17, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 114, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../../scss/src/application.scss */
+body {
+  background-color: #fff;
+  line-height: 1.2;
+  /* line-height does not require units */
+}
+
+/* line 9, ../../scss/src/application.scss */
+header#page-header {
+  background-color: red;
+}
+/* line 12, ../../scss/src/application.scss */
+header#page-header nav {
+  float: right;
+  width: 150px;
+  margin-top: 20px;
+}
+/* line 15, ../../scss/src/application.scss */
+header#page-header nav ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 60, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+header#page-header nav ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: right;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 48, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+header#page-header nav ul li:first-child, header#page-header nav ul li.first {
+  padding-right: 0;
+}
+/* line 49, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+header#page-header nav ul li:last-child {
+  padding-left: 0;
+}
+/* line 50, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+header#page-header nav ul li.last {
+  padding-left: 0;
+}
+/* line 19, ../../scss/src/application.scss */
+header#page-header nav a {
+  text-decoration: none;
+  color: black;
+}
+/* line 22, ../../scss/src/application.scss */
+header#page-header nav a:link {
+  color: black;
+}
+/* line 24, ../../scss/src/application.scss */
+header#page-header nav a:hover {
+  color: blue;
+}
+/* line 27, ../../scss/src/application.scss */
+header#page-header div.body {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 30, ../../scss/src/application.scss */
+header#page-header h1 {
+  font-size: 2.0em;
+  font-family: "Times New Roman", serif;
+  padding: 10px 0 10px 0;
+}
+/* line 36, ../../scss/src/application.scss */
+header#page-header h1 a {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 43, ../../scss/src/application.scss */
+section#diagnosis-list {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 46, ../../scss/src/application.scss */
+section#diagnosis-list header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 49, ../../scss/src/application.scss */
+section#diagnosis-list header h1 {
+  font-size: 1.5em;
+  font-family: "Times New Roman", serif;
+  text-decoration: underline;
+}
+/* line 56, ../../scss/src/application.scss */
+section#diagnosis-list article {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 590px;
+  padding-left: 80px;
+}
+/* line 147, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html section#diagnosis-list article {
+  overflow-x: hidden;
+}
+/* line 60, ../../scss/src/application.scss */
+section#diagnosis-list article header {
+  margin: 5px 0 0 0;
+}
+/* line 62, ../../scss/src/application.scss */
+section#diagnosis-list article header h1 {
+  font-size: 1.0em;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* line 68, ../../scss/src/application.scss */
+section#diagnosis-list article a:link {
+  color: blue;
+}
+/* line 69, ../../scss/src/application.scss */
+section#diagnosis-list article a:visited {
+  color: blue;
+}
+/* line 70, ../../scss/src/application.scss */
+section#diagnosis-list article a:hover {
+  color: green;
+}
+
+/* line 77, ../../scss/src/application.scss */
+section#diagnosis {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 81, ../../scss/src/application.scss */
+section#diagnosis header hgroup {
+  line-height: 1;
+  margin-top: 10px;
+}
+/* line 84, ../../scss/src/application.scss */
+section#diagnosis header h1 {
+  font-size: 1.5em;
+  font-family: "Times New Roman", serif;
+  text-decoration: underline;
+}
+/* line 88, ../../scss/src/application.scss */
+section#diagnosis header h2 {
+  font-size: 0.75em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 5px;
+}
+/* line 94, ../../scss/src/application.scss */
+section#diagnosis div.description {
+  padding-left: 40px;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 590px;
+  margin-top: 15px;
+}
+/* line 147, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html section#diagnosis div.description {
+  overflow-x: hidden;
+}
+/* line 99, ../../scss/src/application.scss */
+section#diagnosis div.description p {
+  margin-top: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+/* line 103, ../../scss/src/application.scss */
+section#diagnosis div.description ul {
+  padding-left: 40px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+/* line 111, ../../scss/src/application.scss */
+section#image-link {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 10px;
+}
+/* line 114, ../../scss/src/application.scss */
+section#image-link a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 120, ../../scss/src/application.scss */
+section#references {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 15px;
+}
+/* line 123, ../../scss/src/application.scss */
+section#references h1 {
+  font-size: 1em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: underline;
+  color: gray;
+}
+/* line 128, ../../scss/src/application.scss */
+section#references ul {
+  padding-left: 40px;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 590px;
+}
+/* line 147, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html section#references ul {
+  overflow-x: hidden;
+}
+/* line 131, ../../scss/src/application.scss */
+section#references li {
+  font-size: 0.8em;
+  margin-top: 2px;
+}
+/* line 134, ../../scss/src/application.scss */
+section#references a {
+  text-decoration: none;
+  color: gray;
+}
+/* line 139, ../../scss/src/application.scss */
+section#references a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* line 144, ../../scss/src/application.scss */
+section#about {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 147, ../../scss/src/application.scss */
+section#about p {
+  margin-top: 15px;
+}
+/* line 151, ../../scss/src/application.scss */
+section#about h1 {
+  font-size: 1.3em;
+  margin-top: 15px;
+}
+/* line 156, ../../scss/src/application.scss */
+section#about h2 {
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+/* line 161, ../../scss/src/application.scss */
+section#about a {
+  color: black;
+}

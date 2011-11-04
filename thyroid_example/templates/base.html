@@ -1,0 +1,15 @@
+{% extends "base_template.html" %}
+
+{% block header %}
+<header id="page-header">
+<div class="body">
+<nav>
+    <ul>
+        <li><a href="{% url thy_about %}">About</a></li>
+    </ul>
+</nav>
+<h1><a href="{% url thy_diagnosis_list %}">Thyroid Demonstration</a></h1>
+</div>
+</header>
+{% endblock %}
+

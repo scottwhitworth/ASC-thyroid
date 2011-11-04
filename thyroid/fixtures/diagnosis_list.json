@@ -1,0 +1,303 @@
+[
+  {
+    "pk": 1, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://localhost:8000/", 
+      "title": "Unsatisfactory (vs. nondiagnostic) thyroidal aspiratres: a semantic issue?"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/18478609", 
+      "title": "Diagnostic terminology and morphologic criteria for cytologic diagnosis of thyroid lesions: a synopsis of the National Cancer Institute Thyroid Fine-Needle Aspiration State of the Science Conference."
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://journals.lww.com/pathologycasereviews/Abstract/2005/03000/Interpretation_of_the_Paucicellular_Thyroid_Fine.3.aspx", 
+      "title": "Interpretation of the paucicellular thyroid fine needle aspiration biopsy specimen"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/18478608", 
+      "title": "Techniques for thyroid FNA: a synopsis of the National Cancer Institute Thyroid Fine-Needle Aspiration State of the Science Conference."
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/18231997", 
+      "title": "The clinical and diagnostic impact of using standard criteria of adequacy assessment and diagnostic terminology on thyroid nodule fine needle aspiration."
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/16420177", 
+      "title": "Management guidelines for patients with thyroid nodules and differentiated thyroid cancer."
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/16355378", 
+      "title": "Reporting thyroid fine-needle aspiration: literature review and a proposal"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/19382174", 
+      "title": "The indeterminate thyroid FNA: Experience from an academic center using terminology similar to that proposed in the 2007 NCI Thyroid Fine Needle Aspiration State of the Science Conference"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/12162679", 
+      "title": "Focal features of papillary carcinoma of the thyroid in fine-needle aspiration material are strongly associated with papillary carcinoma at resection."
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/14968418", 
+      "title": "Fine-needle cytology and flow cytometry immunophenotyping and subclassification of non-Hodgkin lymphoma: a critical review of 307 cases with technical suggestions."
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/11169886", 
+      "title": "Cytology and immunophenotyping of low- and intermediate-grade B-cell non-Hodgkin's lymphomas with a predominant small-cell component: a study of 56 cases."
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/14579297", 
+      "title": "Cytologic findings of marginal zone lymphoma."
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/12920749", 
+      "title": "Comparative findings of lymphocytic thyroiditis and thyroid lymphoma."
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/16482990", 
+      "title": "Restricted kappa/lambda light chain ratio by flow cytometry in germinal center B cells in Hashimoto thyroiditis."
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/2588125", 
+      "title": "Long-term follow-up of patients with benign thyroid fine-needle aspiration cytologic diagnoses."
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "thyroid.reference", 
+    "fields": {
+      "link": "http://www.ncbi.nlm.nih.gov/pubmed/10820528", 
+      "title": "Cytologic diagnosis of medullary carcinoma of the thyroid gland."
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "thyroid.category", 
+    "fields": {
+      "type": "Nondiagnostic/Unsatisfactory", 
+      "order": 1
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "thyroid.category", 
+    "fields": {
+      "type": "Benign", 
+      "order": 2
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "thyroid.category", 
+    "fields": {
+      "type": "Undetermined Significance", 
+      "order": 3
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "thyroid.category", 
+    "fields": {
+      "type": "Follicular Neoplasm", 
+      "order": 4
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "thyroid.category", 
+    "fields": {
+      "type": "H\u00fcrthle Cell Type", 
+      "order": 5
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "thyroid.category", 
+    "fields": {
+      "type": "Suspicious for Malignancy", 
+      "order": 6
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "thyroid.category", 
+    "fields": {
+      "type": "Malignant", 
+      "order": 7
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "thyroid.diagnosis", 
+    "fields": {
+      "category": 1, 
+      "text": "Insufficient cellularity", 
+      "references": [
+        1, 
+        2, 
+        3, 
+        4, 
+        5
+      ], 
+      "description": "<p>We include an assessment of the adequacy of the specimen in our interpretation. We have adopted the Bethesda system's recommendation for criteria for determining specimen adequacy to ensure a low false-negative rate.</p>\r\n<p>The Bethesda system recommends the following scenarios to be considered Nondiagnostic:</p>\r\n<ul>\r\n<li>Fewer than six groups of well-preserved, well-stained follicular cell groups with ten cells each.</li>\r\n<li>Poorly prepared, poorly stained, or obscured follicular cells.</li>\r\n<li>Cyst fluid only, with scant to absent follicular cells.</li>\r\n</ul>\r\n<p>There are some general exceptions:</p>\r\n<ul>\r\n<li>Any specimen with significant cytologic atypia will be considered adequate and we will report a result</li>\r\n<li>Solid nodules with inflammation, as in lymphocytic thyroiditis, abscess, or granulomatous thyroiditis will be reported and considered satisfactory.</li>\r\n<li>Colloid nodules will be considered satisfactory and benign.</li>\r\n</ul>"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "thyroid.diagnosis", 
+    "fields": {
+      "category": 3, 
+      "text": "Atypia of Undetermined Significance", 
+      "references": [
+        2, 
+        6, 
+        7, 
+        8, 
+        9
+      ], 
+      "description": "<p>The Bethesda System recommends using this interpretation rarely, in the setting of a specimen that contains cells with architectural or nuclear atypia that is not sufficient for a suspicious for malignancy or frank malignant interpretation. Often this is related to a relatively hypocellular specimen or a specimen that has preparation artifacts.</p>\r\n<p>The recommended management for an initial diagnosis of Atypia of Unknown Significance is clinical correlation and a repeating of aspiration at an appropriate interval. The risk of malignancy is estimated at 5-15%.</p>\r\n<p>These are some of the common scenarios when this diagnosis may be used:</p>\r\n<ul>\r\n<li>A prominent population of microfollicles in an aspirate that does not fulfill the criteria for a Follicular Neoplasm.</li>\r\n<li>A predominance of H\u00fcrthle cells in a sparsely cellular aspirate with scant colloid.</li>\r\n<li>Follicular atypia that is hindered by preparation artifact.</li>\r\n<li>A cellular specimen predominantly composed of H\u00fcrthle cells in a benign clinical setting such as Hashimoto's thyroiditis.</li>\r\n<li>Focal features of papillary carcinoma in an otherwise benign-appearing sample.</li>\r\n<li>An atypical lymphoid infiltrate, but insufficient to indicate suspicious for malignancy.</li>\r\n</ul>"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "thyroid.diagnosis", 
+    "fields": {
+      "category": 7, 
+      "text": "Papillary Thyroid Carcinoma", 
+      "references": [], 
+      "description": ""
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "thyroid.diagnosis", 
+    "fields": {
+      "category": 6, 
+      "text": "Suspicious for Lymphoma", 
+      "references": [
+        10, 
+        11, 
+        12, 
+        13, 
+        14
+      ], 
+      "description": "<p>Diagnosis of a low-grade lymphoma by fine needle aspiration may be challenging, due overlapping features with a benign lymphocytic thyroiditis seen in Hashimoto's thyroiditis, for example. In this setting, a repeat aspiration to collect material for flow cytometric analysis may be warranted. Monoclonally-restricted light chains demonstrated by flow cytometry is suggestive of a lymphoma, however, false positive results have also been reported in lymphocytic thyroiditis.</p>\r\n<p>Diffuse large B-cell lymphoma will be more easily recognized by fine needle aspiration, however, suboptimal preparation may limit our ability to render a definitive diagnosis.</p>"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "thyroid.diagnosis", 
+    "fields": {
+      "category": 6, 
+      "text": "Suspicious for Medullary Thyroid Carcinoma", 
+      "references": [
+        16
+      ], 
+      "description": "<p>This specimen demonstrates some features of medullary thyroid carcinoma, but technical issues could limit the interpretation to less than definitive for the diagnosis. It can be strongly suggested in the clinical setting of a patient with known elevated serum calcitonin.</p>\r\n<p>Management options include repeat aspiration and surgical excision with a hemithyroidectomy to confirm the diagnosis.</p>"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "thyroid.diagnosis", 
+    "fields": {
+      "category": 2, 
+      "text": "Consistent with lymphocytic thyroiditis", 
+      "references": [], 
+      "description": "<p>This diagnosis is applied to cytologic specimens which demonstrate many polymorphic lymphocytes associated with H\u00fcrthle cells, particularly in patient's who are clinically suspected to have Hashimoto's thyroiditis.</p>"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "thyroid.diagnosis", 
+    "fields": {
+      "category": 2, 
+      "text": "Benign follicular nodule", 
+      "references": [
+        2, 
+        15
+      ], 
+      "description": "<p>We give a general designation of benign follicular nodule to a sample that is adequate for evaluation and consists of colloid and benign follicular cells. A more specific interpretation, such as adenomatous hyperplasia or nodular goiter, can also be given depending upon the clinical history and cytopathologic features.</p>\r\n<p>The American Thyroid Association guidelines state that thyroid nodules which have benign cytology do not require immediate therapy or additional studies. Long-term follow-up with serial ultrasound at 6-18 months for nodule size is recommended, due to the small false-negative rate associated with thyroid aspiration.</p>"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "thyroid.diagnosis", 
+    "fields": {
+      "category": 4, 
+      "text": "Follicular neoplasm", 
+      "references": [
+        2
+      ], 
+      "description": "<p>The diagnosis of follicular lesions by fine needle aspiration is useful to identify nodules which may represent follicular adenomas or follicular carcinomas. This distinction requires surgical excision because the diagnosis depends upon complete microscopic examination of the nodule's capsule.</p>\r\n<p>Additionally, a significant number of lesions interpreted as 'Follicular Neoplasm' or 'Suspicious for Follicular Neoplasm' may prove to be hyperplastic proliferations in nodular goiter.</p>\r\n<p>We employ the terminology 'Follicular Neoplasm' or 'Suspicious for Follicular Neoplasm' in cases in which we believe that the lesion has the potential to represent a follicular carcinoma and requires referral for diagnostic lobectomy. This generally means that the cytologic specimen is hypercellular, and in which the follicular architecture displays atypia. This architectural atypia usually includes cellular crowding and a microfollicular arrangement. In a less cellular specimen displaying the same architectural atypia, we may choose to interpret the specimen as <a href=\"/thyroid/diagnosis/3/\">'Atypia of Undetermined Significance</a></p>\r\n<p>Cellular aspirates that consistent almost exclusively of Hrthle cells may be interpreted as 'Follicular Neoplasm, Hrthle cell type' or as 'Suspicious for a follicular neoplasm, Hrthle cell type.' As with non-Hrthle cell lesions, fine needle aspiration is useful as a screening tool to detect Hrthle cell lesions that require surgical excision for definitive classification.</p>"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "thyroid.diagnosis", 
+    "fields": {
+      "category": 7, 
+      "text": "Medullary Thyroid Carcinoma", 
+      "references": [
+        2
+      ], 
+      "description": "<p>These samples are usually hypercellular with numerous isolated cells with synctial clusters. The cells are often plasmacytoid or spindled with a mild amount of nuclear atypia. Amyloid is present in a significant amount of cases.</p>\r\n<p class=\"management\">Clinical management of this interpretation usually results in total thyroidectomy with lymph node dissection. <a href=\"http://localhost/\">American Thyroid Association Guidelines</a></p>"
+    }
+  }
+]

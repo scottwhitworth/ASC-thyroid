@@ -1,0 +1,164 @@
+@import "base";
+@import "compass/utilities/lists/horizontal-list";
+
+body {
+    background-color: #fff;
+    line-height:1.2; /* line-height does not require units */
+}
+
+header#page-header {
+    background-color: $header-color;
+
+    nav {
+        float: right;
+        width: 150px;
+        ul {
+            @include horizontal-list(5px, right);
+        }
+        margin-top: 20px;
+        a { text-decoration: none;
+            color: $header-link-color;
+        }
+        a:link { color: $header-link-color; }
+        a:visited { }
+        a:hover { color: $header-link-hover-color; }
+        a:active { }
+    }
+    div.body {
+        @include container;
+    }
+    h1 {
+        //width: 600px;
+        font-size:2.0em;
+        font-family: $serif;
+        padding: 10px 0 10px 0;
+        
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+
+section#diagnosis-list {
+    @include container;
+    
+    header {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        h1 {
+            font-size:1.5em;
+            font-family:$serif;
+            text-decoration: underline;
+        }
+    }
+
+    article {
+        @include column(15);
+        @include prepend(2);
+
+        header {
+            margin: 5px 0 0 0;
+            h1 { font-size:1.0em;
+                 text-decoration: none;
+                 font-family: $sans-serif;
+            }
+        }
+
+        a:link { color: $regular-link-color; }
+        a:visited { color: $regular-link-visited-color; }
+        a:hover { color: $regular-link-hover-color; }
+        a:active { }
+
+    }
+
+}
+
+section#diagnosis {
+    @include container;
+
+    header {
+        hgroup { line-height:1; 
+                 margin-top: 10px;
+        }
+        h1 { font-size:1.5em; 
+             font-family:$serif;
+             text-decoration: underline;
+        }
+        h2 { font-size:0.75em; 
+             font-family:$sans-serif;
+             margin-top: 5px;
+        }
+    }
+
+    div.description {
+        @include prepend(1);
+        @include column(15, true);
+        margin-top: 15px;
+
+        p { margin-top: 10px;
+            font-family:$sans-serif;
+            font-size:1em;
+        }
+        ul { @include prepend(1);
+             font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+             font-size:1em;
+             margin-top: 10px;
+        }
+    }
+}
+
+section#image-link {
+    @include container;
+    margin-top: 10px;
+    a {
+        text-decoration: none;
+        color: $image-link;
+    }
+}
+
+section#references {
+    @include container;
+    margin-top: 15px;
+    h1 { font-size:1em;
+         font-family:$sans-serif;
+         text-decoration: underline;
+         color: $reference-link;
+    }
+    ul { @include prepend(1); 
+         @include column(15, true);
+    }
+    li { font-size: 0.8em;
+         margin-top: 2px;
+    }
+    a { text-decoration: none;
+        color: $reference-link;
+    }
+    a:link { 
+    }
+    a:hover { color: $reference-link-hover;
+              text-decoration: underline;
+    }
+}
+
+section#about {
+    @include container;
+
+    p {
+        margin-top: 15px;
+    }
+
+    h1 {
+        font-size: 1.3em;
+        margin-top: 15px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        margin-top: 15px;
+    }
+
+    a {
+        color: black;
+    }
+}

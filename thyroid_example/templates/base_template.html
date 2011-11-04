@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thyroid Demo | {% block title %}{% endblock %}</title>
+<meta charset="utf-8" />
+
+{% block base_stylesheet %}
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/application.css">
+{% endblock %}
+{% block base_js %}
+<!--[if lt IE 9]>
+<script type="text/javascript" src="{{ STATIC_URL }}js/html5.js"></script>
+<![endif]-->
+{% endblock %}
+
+{% block extra_head %}{% endblock %}
+</head>
+{% block body %}
+<body>
+{% block header %}{% endblock %}
+{% block content %}{% endblock %}
+</body>
+{% endblock %}
+</html>
