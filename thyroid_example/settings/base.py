@@ -1,9 +1,10 @@
 import os
 
-SETTINGS_PATH = os.path.abspath(os.path.dirname(__name__))
-DATABASE_PATH = os.path.join(SETTINGS_PATH, 'dev-db.db')
-TEMPLATE_PATH = os.path.join(SETTINGS_PATH, 'templates')
-STATIC_PATH = os.path.join(SETTINGS_PATH, 'static/')
+SETTINGS_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_PATH = os.path.split(SETTINGS_DIR)[0]
+DATABASE_PATH = os.path.join(ROOT_PATH, 'dev-db.db')
+TEMPLATE_PATH = os.path.join(ROOT_PATH, 'templates')
+STATIC_PATH = os.path.join(ROOT_PATH, 'static/')
 
 DATABASES = {
     'default': {
